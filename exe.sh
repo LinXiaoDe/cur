@@ -1,1 +1,1 @@
-pacstrap /mnt base linux linux-firmware nano
+reflector -c China -a 6 --sort rate --save /etc/pacman.d/mirrorlist
